@@ -52,12 +52,13 @@
 
 // export default App
 
-
+import State from "./State";
 import Todo from "./Todo";
 function App(){
   return(
     <div>
       <Todo />
+      <State />
     </div>
   )
 }
