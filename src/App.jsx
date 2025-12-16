@@ -54,11 +54,13 @@
 
 import State from "./State";
 import Todo from "./Todo";
+import ToggleHTML from "./ToggleHTML";
 function App(){
   return(
     <div>
-      <Todo />
-      <State />
+      {/* <Todo /> */}
+      {/* <State /> */}
+      <ToggleHTML />
     </div>
   )
 }
