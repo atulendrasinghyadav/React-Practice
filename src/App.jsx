@@ -55,12 +55,14 @@
 import State from "./State";
 import Todo from "./Todo";
 import ToggleHTML from "./ToggleHTML";
+import Props from "./Props";
 function App(){
   return(
     <div>
       {/* <Todo /> */}
       {/* <State /> */}
-      <ToggleHTML />
+      {/* <ToggleHTML /> */}
+      <Props />
     </div>
   )
 }
