@@ -71,6 +71,18 @@ function App(){
         <h1>This is wrapped content</h1>
         <p>This content is inside the wrapper component</p>
       </Wrapper>
+      <Wrapper color = "red">
+        <h1>This is wrapped content</h1>
+        <p>This content is inside the wrapper component</p>
+      </Wrapper>
+      <Wrapper color = "blue">
+        <h1>This is wrapped content</h1>
+        <p>This content is inside the wrapper component</p>
+      </Wrapper>
+      <Wrapper>
+        <h1>This is wrapped content</h1>
+        <p>This content is inside the wrapper component</p>
+      </Wrapper>
     </div>
   )
 }
