@@ -59,6 +59,7 @@ import Props from "./Props";
 import DefaultProps from "./DefaultProps";
 import Wrapper from "./Wrapper";
 import Input from "./Input"
+import MultipleControlledInput from "./MultipleControlledInput";
 
 function App(){
   return(
@@ -90,7 +91,9 @@ function App(){
         <p>This content is inside the wrapper component</p>
       </Wrapper> */}
 
-      <Input />
+      {/* <Input /> */}
+
+      <MultipleControlledInput />
     </div>
   )
 }
