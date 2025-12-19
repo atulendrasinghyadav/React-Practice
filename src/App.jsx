@@ -61,6 +61,7 @@ import Wrapper from "./Wrapper";
 import Input from "./Input"
 import MultipleControlledInput from "./MultipleControlledInput";
 import HandleCheckBox from "./HandleCheckbox";
+import RadioButton from "./RadioButton";
 
 function App(){
   return(
@@ -96,7 +97,9 @@ function App(){
 
       {/* <MultipleControlledInput /> */}
 
-      <HandleCheckBox />
+      {/* <HandleCheckBox /> */}
+
+      <RadioButton />
     </div>
   )
 }
