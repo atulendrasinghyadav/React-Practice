@@ -58,16 +58,22 @@ import ToggleHTML from "./ToggleHTML";
 import Props from "./Props";
 import DefaultProps from "./DefaultProps";
 import Wrapper from "./Wrapper";
+import Input from "./Input"
 
 function App(){
   return(
     <div>
       {/* <Todo /> */}
+
       {/* <State /> */}
+
       {/* <ToggleHTML /> */}
+
       {/* <Props /> */}
+
       {/* <DefaultProps /> */}
-      <Wrapper>
+
+      {/* <Wrapper>
         <h1>This is wrapped content</h1>
         <p>This content is inside the wrapper component</p>
       </Wrapper>
@@ -82,7 +88,9 @@ function App(){
       <Wrapper>
         <h1>This is wrapped content</h1>
         <p>This content is inside the wrapper component</p>
-      </Wrapper>
+      </Wrapper> */}
+
+      <Input />
     </div>
   )
 }
