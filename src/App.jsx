@@ -60,6 +60,7 @@ import DefaultProps from "./DefaultProps";
 import Wrapper from "./Wrapper";
 import Input from "./Input"
 import MultipleControlledInput from "./MultipleControlledInput";
+import HandleCheckBox from "./HandleCheckbox";
 
 function App(){
   return(
@@ -93,7 +94,9 @@ function App(){
 
       {/* <Input /> */}
 
-      <MultipleControlledInput />
+      {/* <MultipleControlledInput /> */}
+
+      <HandleCheckBox />
     </div>
   )
 }
