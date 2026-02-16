@@ -63,6 +63,7 @@ import MultipleControlledInput from "./MultipleControlledInput";
 import HandleCheckBox from "./HandleCheckbox";
 import RadioButton from "./RadioButton";
 import LoopsinJSX from "./LoopsInJSX";
+import ClockTask from "./ClockTask";
 
 function App(){
   return(
@@ -102,7 +103,9 @@ function App(){
 
       {/* <RadioButton /> */}
 
-      <LoopsinJSX />
+      {/* <LoopsinJSX /> */}
+
+      <ClockTask />
     </div>
   )
 }
