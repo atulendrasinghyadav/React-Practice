@@ -1,3 +1,4 @@
+import UserComponentLoops from "./UserComponentLoops";
 function LoopsinJSX(){
     const userData = [
         {
@@ -73,6 +74,15 @@ function LoopsinJSX(){
                     </tr>
                 </tbody>
             </table>
+
+            <h1>Reuse Component</h1>
+            {
+                userData.map((user) => (
+                    <div key={user.id}>
+                        <UserComponentLoops user = {user}/>
+                    </div>
+                ))
+            }
         </div>
     )
 }
