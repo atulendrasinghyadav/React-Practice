@@ -2,10 +2,10 @@
 //First letter of the component should be capital
 //Small letter wale function normal js walee code hote hai jo value return krte hai koi html ya jsx nhi
 //jsx is a syntax extension for javascript
-//jsx looks like html but it is not html
 //jsx is used to describe what the  ui should look like
 //jsx is not mandatory to use react but it is recommended to use jsx with react
 //jsx makes it easier to write and understand the code
+//jsx looks like html but it is not html
 
 
 
@@ -64,6 +64,8 @@ import HandleCheckBox from "./HandleCheckbox";
 import RadioButton from "./RadioButton";
 import LoopsinJSX from "./LoopsInJSX";
 import ClockTask from "./ClockTask";
+import NestedLoops from "./NestedLoops";
+import UseEffect from "./UseEffect";
 
 function App(){
   return(
@@ -105,7 +107,11 @@ function App(){
 
       {/* <LoopsinJSX /> */}
 
-      <ClockTask />
+      {/* <ClockTask /> */}
+
+      {/* <NestedLoops /> */}
+
+      <UseEffect />
     </div>
   )
 }
