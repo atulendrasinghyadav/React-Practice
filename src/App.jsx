@@ -66,6 +66,7 @@ import LoopsinJSX from "./LoopsInJSX";
 import ClockTask from "./ClockTask";
 import NestedLoops from "./NestedLoops";
 import UseEffect from "./UseEffect";
+import UseEffectUsingProps from "./UseEffectUsingProps";
 
 function App(){
   return(
@@ -111,7 +112,9 @@ function App(){
 
       {/* <NestedLoops /> */}
 
-      <UseEffect />
+      {/* <UseEffect /> */}
+
+      <UseEffectUsingProps />
     </div>
   )
 }
