@@ -67,6 +67,7 @@ import ClockTask from "./ClockTask";
 import NestedLoops from "./NestedLoops";
 import UseEffect from "./UseEffect";
 import UseEffectUsingProps from "./UseEffectUsingProps";
+import LifeCycleInReact from "./LifeCycleInReact";
 
 function App(){
   return(
@@ -114,7 +115,9 @@ function App(){
 
       {/* <UseEffect /> */}
 
-      <UseEffectUsingProps />
+      {/* <UseEffectUsingProps /> */}
+
+      <LifeCycleInReact />
     </div>
   )
 }
